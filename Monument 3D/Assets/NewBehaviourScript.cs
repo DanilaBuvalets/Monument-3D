@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     float LastDist;
-    GameObject Moving;
+    public GameObject Moving;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,8 +13,6 @@ public class NewBehaviourScript : MonoBehaviour
     }
     void ScaleObj()
     {
-        Touch touch = Input.touches[0];
-        Ray ray = Camera.main.ScreenPointToRay(touch.position);
         float CurrDist = (Input.touches[0].position - Input.touches[1].position).magnitude;
         if (LastDist != 0)
         {
@@ -34,6 +32,10 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.touches.Length == 2)
+        {
+            ScaleObj();
+        }
         foreach (Touch touch in Input.touches)
             if (touch.phase == TouchPhase.Moved)
         {
