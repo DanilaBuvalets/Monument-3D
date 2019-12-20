@@ -48,6 +48,9 @@ EditorBuildSettings:
     path: Assets/Dostoprimechatelnosty.unity
     guid: 5b93f303dea8c1e4faf9cab2cb1dbb8b
   - enabled: 1
+    path: Assets/Menu.unity
+    guid: e319eca294c68e440a2b45665995812d
+  - enabled: 1
     path: Assets/ProjectM.unity
     guid: ddb29fd70557779409f4b50d63545df5
   m_configObjects: {}

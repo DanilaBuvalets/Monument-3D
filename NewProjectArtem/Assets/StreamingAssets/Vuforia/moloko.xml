@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="3198437H" size="1.000000 1.386749" />
+    <ImageTarget name="29cc793edd213c67762aaeb5100f502f_15201534" size="1.000000 1.000000" />
+    <ImageTarget name="2b7234caa0608be979572f3b3ccc333d" size="1.000000 1.000000" />
+    <ImageTarget name="7c5a7962ce9ef6b26dfcd5ddc068d520_preview" size="1.000000 0.520661" />
+    <ImageTarget name="Milk_bootle" size="1.000000 1.827480" />
+  </Tracking>
+</QCARConfig>
