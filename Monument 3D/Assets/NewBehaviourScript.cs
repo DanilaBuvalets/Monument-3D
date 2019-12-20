@@ -16,7 +16,7 @@ public class NewBehaviourScript : MonoBehaviour
         float CurrDist = (Input.touches[0].position - Input.touches[1].position).magnitude;
         if (LastDist != 0)
         {
-            Moving.transform.localScale += Vector3.one * (LastDist - CurrDist) * Time.deltaTime * 5f;
+            Moving.transform.localScale += Vector3.one * (LastDist - CurrDist) * Time.deltaTime * 1f;
         }
         LastDist = CurrDist;
         foreach (Touch touc in Input.touches)
