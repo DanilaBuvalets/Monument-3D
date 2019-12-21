@@ -9,7 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LastDist = 0;
+        
     }
     void ScaleObj()
     {
@@ -40,6 +40,10 @@ public class NewBehaviourScript : MonoBehaviour
             if (touch.phase == TouchPhase.Moved)
         {
             transform.Rotate(new Vector3(0,-touch.deltaPosition.x,0));
+        }
+        if (Input.touches.Length == 2)
+        {
+            ScaleObj();
         }
    
     }
