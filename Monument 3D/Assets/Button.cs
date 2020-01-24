@@ -8,7 +8,7 @@ public class Button : MonoBehaviour
     [SerializeField] GameObject Rules;
     public void Begin()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("ProjectM");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene");
     }
     public void Close()
     {
